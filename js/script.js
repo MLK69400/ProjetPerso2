@@ -6,7 +6,7 @@ var button = document.getElementById('presentation');
 // Au clic, on lance une fonction
 button.addEventListener('click', function(){
 
-  document.getElementById('identite').classList.add('wrapperAnime');
+  document.getElementById('main').classList.add('wrapperAnime');
 
   // Fait disparaitre le wrapper aprés 2secondes
   setTimeout(function(){ document.getElementById('identite').style.display='none'; }, 2000);

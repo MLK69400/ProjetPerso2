@@ -4,6 +4,7 @@ include 'includes/header.php';
  ?>
 
 <main>
+  <div id="main">
   <section id="identite">
     <div id="presentation">
       <span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
@@ -39,6 +40,7 @@ include 'includes/header.php';
       </ul>
     </div>
   </section>
+</div>
 </main>
 
  <?php
