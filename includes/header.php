@@ -13,18 +13,13 @@
         <!-- BOOTSTRAP -->
         <link rel="stylesheet" href="css/style.css">
 
-    </head>
-    <body>
-        <div class="container">
-            <header>
-                <h1><?= $titlePage; ?></h1>
-                <div class="overlay">
-               <h1>Infinite Scrolling Background</h1>
-               <p>A Quick Codepen by Scott Marshall</p>
-               </div>
-
-            </header>
-            <?php
-            // Menu de navigation
-            include"includes/navbar.php"
-            ?>
+      </head>
+      <body>
+        <div class="overlay">
+        </div> <!-- Fin de overlay -->
+        <header>
+          <?php
+          // Menu de navigation
+          include"includes/navbar.php"
+          ?>
+        </header>
