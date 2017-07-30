@@ -11,9 +11,6 @@ li {
   text-decoration: none;
   list-style: none;
 }
-body {
-  overflow: hidden;
-}
 .overlay {
   position: fixed;
   background: url("../images/bg2.jpg");

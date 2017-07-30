@@ -1,10 +1,6 @@
-<main class="container">
+<main class="container main">
 
-    <section class="main">
-        <div id="photoidentiter">
-            <img src="img/photo-de-profil.jpg" alt="#" width="100%" height="100%">
-        </div>
-
+    <section>
 
         <h1>Développeur Web et Logiciel</h1>
         <p>Passionné et captivé depuis plus de dix ans par l'informatique, j'ai acquis des compétences qui me permettent aujourd'hui de travailler en équipe sur divers projets web et logiciel. Je construit actuellement un studio web créatif spécialisé dans le motion design. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
@@ -14,7 +10,7 @@
 
 
     </section>
-    <aside class="main">
+    <aside>
 
         <div class="menu ">
             <h2><span class="icone ion-university"></span>Compétences</h2>

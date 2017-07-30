@@ -40,31 +40,31 @@ $(document).ready(function(){
     
     // Affiche home qand on clique sur le lien
     $('#lienExperiences').click(function(){
-        $('#experiences').load('ajax/experiences.php', function(){
+        $('#home').load('ajax/experiences.php', function(){
         });
     });
     
     // Affiche home qand on clique sur le lien
     $('#lienLoisirs').click(function(){
-        $('#loisirs').load('ajax/loisirs.php', function(){
+        $('#home').load('ajax/loisirs.php', function(){
         });
     });
     
     // Affiche home qand on clique sur le lien
     $('#lienProjets').click(function(){
-        $('#projets').load('ajax/projets.php', function(){
+        $('#home').load('ajax/projets.php', function(){
         });
     });
     
     // Affiche home qand on clique sur le lien
     $('#lienCv').click(function(){
-        $('#cv').load('ajax/cv.php', function(){
+        $('#home').load('ajax/cv.php', function(){
         });
     });
     
     // Affiche home qand on clique sur le lien
     $('#lienContact').click(function(){
-        $('#contact').load('ajax/contact.php', function(){
+        $('#home').load('ajax/contact.php', function(){
         });
     });
     
