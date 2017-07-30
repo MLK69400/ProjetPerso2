@@ -1,23 +1,73 @@
 $(document).ready(function(){
 
-// On détermine l'ID de ton bouton
-var button = document.getElementById('presentation');
+    // On détermine l'ID du bouton
+    var button = document.getElementById('presentation');
 
-// Au clic, on lance une fonction
-button.addEventListener('click', function(){
+    // Cacher la barre de navigation
+    $('#menu').css('display', 'none').hide();
 
-  document.getElementById('main').classList.add('wrapperAnime');
+    // Au clic, on lance une fonction
+    button.addEventListener('click', function(){
 
-  // Fait disparaitre le wrapper aprés 2secondes
-  setTimeout(function(){ document.getElementById('identite').style.display='none'; }, 2000);
-  // document.getElementById('menu').style.display='block';
+        document.getElementById('main').classList.add('wrapperAnime');
 
-
-
-    // $('#menu').fadeIn(2000);
-    $('#menu').css('display', 'flex').hide().fadeIn(2000);
+        // Fait disparaitre le wrapper aprés 3 secondes
+        setTimeout(function(){ document.getElementById('identite').style.display='none'; }, 2000);
 
 
-  });
+        // document.getElementById('menu').style.display='block';
+
+
+        // affichée la barre de navigation
+        $('#menu').css('display', 'flex').hide().fadeIn(3000);
+
+
+    });
+    
+    ////////[AJAX]////////
+    
+    // Affiche home qand on clique sur le lien
+    $('#lienHome').click(function(){
+        $('#home').load('ajax/home.php', function(){
+        });
+    });
+    
+    // Affiche competences qand on clique sur le lien
+    $('#lienCompetences').click(function(){
+        $('#home').load('ajax/competences.php', function(){
+        });
+    });
+    
+    // Affiche home qand on clique sur le lien
+    $('#lienExperiences').click(function(){
+        $('#experiences').load('ajax/experiences.php', function(){
+        });
+    });
+    
+    // Affiche home qand on clique sur le lien
+    $('#lienLoisirs').click(function(){
+        $('#loisirs').load('ajax/loisirs.php', function(){
+        });
+    });
+    
+    // Affiche home qand on clique sur le lien
+    $('#lienProjets').click(function(){
+        $('#projets').load('ajax/projets.php', function(){
+        });
+    });
+    
+    // Affiche home qand on clique sur le lien
+    $('#lienCv').click(function(){
+        $('#cv').load('ajax/cv.php', function(){
+        });
+    });
+    
+    // Affiche home qand on clique sur le lien
+    $('#lienContact').click(function(){
+        $('#contact').load('ajax/contact.php', function(){
+        });
+    });
+    
+    
 
 });
