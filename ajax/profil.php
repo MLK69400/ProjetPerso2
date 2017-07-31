@@ -1,8 +1,3 @@
-<?php
-$titlePage = "";
-include 'includes/header.php';
-?>
-
 <main>
     <div id="main">
         <section id="identite" class="container2">
@@ -43,8 +38,3 @@ include 'includes/header.php';
     </div>
 
 </main>
-<div id="home"></div>
-<?php
-
-include 'includes/footer.php';
-?>
