@@ -1,8 +1,9 @@
-<nav id="menu" style="display:none">
-    <a  href="#">Compétences</a>
-    <a  href="#">Experiences</a>
-    <a  href="#">Loisirs</a>
-    <a  href="#">Projets</a>
-    <a  href="#">C.V.</a>
-    <a  href="#">Contact</a>
+<nav id="menu">
+    <a  href="#" id="lienHome"><span class="fa fa-home fa-lg"></span></a>
+    <a  href="#" id="lienCompetences">Compétences</a>
+    <a  href="#" id="lienExperiences">Experiences</a>
+    <a  href="#" id="lienLoisirs">Loisirs</a>
+    <a  href="#" id="lienProjets">Projets</a>
+    <a  href="#" id="lienCv">C.V.</a>
+    <a  href="#" id="lienContact">Contact</a>
 </nav>

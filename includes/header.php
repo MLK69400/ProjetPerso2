@@ -4,8 +4,6 @@
         <meta charset="UTF-8">
         <title><?php echo $titlePage; ?></title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
         <!-- BOOTSTRAP -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -13,13 +11,13 @@
         <!-- BOOTSTRAP -->
         <link rel="stylesheet" href="css/style.css">
 
-      </head>
-      <body>
+    </head>
+    <body>
         <div class="overlay">
         </div> <!-- Fin de overlay -->
         <header>
-          <?php
-          // Menu de navigation
-          include"includes/navbar.php"
-          ?>
+            <?php
+            // Menu de navigation
+            include"includes/navbar.php"
+            ?>
         </header>
