@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     // On détermine l'ID du bouton
-    var button = document.getElementById('presentation');
+    var button = document.getElementById('identite');
 
     // Cacher la barre de navigation
     $('#menu').css('display', 'none').hide();

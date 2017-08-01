@@ -1,6 +1,42 @@
 <footer>
+
+  <div id="copyright">
     <p>Copyright &copy; WebForce3</p>
-    <p>Merci à Loïc GALLAY X6 et Gaby LABROSSE un petit peu </p>
+  </div>
+
+<div id="mentions">
+  <p><a href="#">Mentions Légals</a></p>
+</div>
+
+  <div id="contactFooter">
+        <ul>
+            <li><a href="#">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-square-o fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x"></i>
+                </span></a>
+            </li>
+            <li><a href="#">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-square-o fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x"></i>
+                </span></a>
+            </li>
+            <li><a href="#">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-square-o fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x"></i>
+                </span></a>
+            </li>
+            <li><a href="#">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-square-o fa-stack-2x"></i>
+                    <i class="fa fa-viadeo fa-stack-1x"></i>
+                </span></a>
+            </li>
+        </ul>
+  </div>
+
 </footer>
 
 

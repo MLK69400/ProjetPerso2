@@ -1,16 +1,18 @@
-<main class="container main">
+<main class="container">
 
-    <section>
+<div class="home main">
+
+    <section class="section">
 
         <h1>Développeur Web et Logiciel</h1>
         <p>Passionné et captivé depuis plus de dix ans par l'informatique, j'ai acquis des compétences qui me permettent aujourd'hui de travailler en équipe sur divers projets web et logiciel. Je construit actuellement un studio web créatif spécialisé dans le motion design. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
 
-        <h2>Pourquoi l'utiliser?</h2>
+        <h2>Pourquoi l'utiliser ?</h2>
         <p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une dist (histoire d'y rajouter de petits clins d'oeil, voire des phrases embarassantes).</p>
 
 
     </section>
-    <aside>
+    <aside class="section">
 
         <div class="menu ">
             <h2><span class="icone ion-university"></span>Compétences</h2>
@@ -39,5 +41,5 @@
         </div>
 
     </aside>
-
+  </div>
 </main>

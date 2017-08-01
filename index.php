@@ -13,7 +13,7 @@ include 'includes/header.php';
             </div>
             <div class="contact">
                 <ul>
-                    <li><a href="#">
+                    <li><a href="http://www.infowebmaster.fr/tutoriel/verifier-format-email-php">
                         <span class="fa-stack fa-2x">
                             <i class="fa fa-square-o fa-stack-2x"></i>
                             <i class="fa fa-twitter fa-stack-1x"></i>
