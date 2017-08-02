@@ -20,6 +20,7 @@ $(document).ready(function(){
 
         // affichée la barre de navigation
         $('#menu').css('display', 'flex').hide().fadeIn(3000);
+        // $('#identite').css('cursor', 'default').hide();
 
 
     });
@@ -33,37 +34,37 @@ $(document).ready(function(){
     });
 
     // Affiche home qand on clique sur le lien
-    $('#lienExperiences').click(function(){
+    $('.lienExperiences').click(function(){
         $('#home').load('ajax/experiences.php', function(){
         });
     });
 
     // Affiche home qand on clique sur le lien
-    $('#lienFormations').click(function(){
+    $('.lienFormations').click(function(){
         $('#home').load('ajax/formations.php', function(){
         });
     });
 
     // Affiche home qand on clique sur le lien
-    $('#lienProfil').click(function(){
+    $('.lienProfil').click(function(){
         $('#home').load('ajax/profil.php', function(){
         });
     });
 
     // Affiche home qand on clique sur le lien
-    $('#lienProjets').click(function(){
+    $('.lienProjets').click(function(){
         $('#home').load('ajax/projets.php', function(){
         });
     });
 
     // Affiche competences qand on clique sur le lien
-    $('#lienCompetences').click(function(){
+    $('.lienCompetences').click(function(){
         $('#home').load('ajax/competences.php', function(){
         });
     });
 
     // Affiche home qand on clique sur le lien
-    $('#lienContact').click(function(){
+    $('.lienContact').click(function(){
         $('#home').load('ajax/contact.php', function(){
         });
     });

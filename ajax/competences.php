@@ -58,7 +58,7 @@
                     </div>
                 </div>
 
-                <h3>HTML</h3>
+                <h3>AJAX</h3>
                 <div class="progress">
                     <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><span class="icone ion-social-html5-outline"></span>
                         <span class="sr-only">60% Complete</span>
@@ -79,14 +79,5 @@
         <p>Besoin d'un coup de pouce en programmation informatique, envie de me connaître un peu plus ou de m'envoyer un message ? Vous trouverez tout le necéssaire ci-dessous. Vous pouvez télécharger ma carte de visite au format vCard, pour m'ajouter facilement à votre carnet d'adresse, m'envoyer un message électronique, me contacter directement par téléphone ou joindre un de mes partenaires. Je m'engage à vous répondre dans la semaine.</p>
     </section>
 
-
-
-
-
-    <aside class="main">
-
-
-
-    </aside>
 
 </main>

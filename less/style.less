@@ -24,13 +24,18 @@ h2 {
 h2, h3 {
   margin-top: 0;
 }
+li h3 {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0;
+}
 a:hover, a, ul, li {
     text-decoration: none;
     list-style: none;
 }
-body {
-   overflow: hidden;
-}
+// body {
+//    overflow: hidden;
+// }
 
 .overlay {
     position: fixed;
@@ -88,8 +93,17 @@ body {
   margin-bottom: 10px;
 }
 
-.imgProjet {
+.point {
+  list-style: disc;
+}
+.activite {
+  padding: 50px 0 0 50px;
+}
+.contenu {
   width: 50%;
+}
+.imgProjet {
+  width: 100%;
 }
 .marge {
   margin: 0 1px;
@@ -111,31 +125,30 @@ iframe {
     margin: 0;
       }
 }
+
+.displai {
+  display: flex;
+}
 ///////////////////////////////[NAV]//////////////////////////////////////
 
 nav {
     display: flex;
     justify-content: space-around;
     background-color: #6398e8;
-    opacity: 0.6;
-    margin: 1em 0;
+    opacity: 0.8;
+    margin: 1em 2em;
+
 
     a {
         font-size: 1.2em;
         text-align: center;
         padding: 1em 1.5em;
-        color: #535353;
-        width: 13.3%
+        color: black;
+        width: 14.3%
     }
 
 }
-nav:hover {
-    a {
-        overflow: hidden;
-        transform: scale(1.2);
-        color: black;
-    }
-}
+
 a:hover {
   background-color: white;
 }
@@ -187,9 +200,10 @@ footer {
     margin: auto;
     text-align: center;
     background-color: white;
-    opacity: 0.8;
+    opacity: 0.9;
     border-radius: 4px;
     width: 30vw;
+    cursor: pointer;
 
 }
 
@@ -256,7 +270,7 @@ footer {
 
 .main {
     background-color: white;
-    opacity: 0.8;
+    opacity: 0.9;
     border-radius: 10px;
     padding: 2em;
     margin-top: 30px;
@@ -292,26 +306,87 @@ footer {
     margin-top: 20px;
 }
 
+.mediaScreen {
+  width: 100%;
+  height: 100;
+}
+
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-@media (min-width: 768px) {
+
+@media (min-width: 320px) {
     .container2 {
-        width: 750px;
+        width:50px;
     }
+    h1, h3, p {
+      color: red;
+    }
+    #identite {
+      width: 70vw;
+    }
+    body {
+       overflow: visible;
+    }
+    .container {
+      margin-bottom: 50px;
+    }
+    .home {
+      display: block;
+    }
+    .section {
+      width: 100%;
+    }
+    .ulMediaScreen {
+      text-align: center;
+    }
+
 }
-@media (min-width: 992px) {
+
+
+
+@media (min-width: 426px) {
     .container2 {
         width: 370px;
     }
-    // body {
-    //   overflow: scroll;
-    // }
-}
-@media (min-width: 1200px) {
+      h1, h3, p {
+        color: green;
+      }
+      #identite {
+        width: 50vw;
+      }
+      body {
+         overflow: visible;
+      }
+      .home {
+        display: flex;
+      }
+      .section {
+        width: 50%;
+      }
+      .ulMediaScreen {
+        text-align: center;
+      }
 
-    .container2 {
-        width: 500px;
-    }
+
+}
+
+@media (min-width: 990px) {
+      body {
+         overflow: hidden;
+      }
+      .container {
+        margin-bottom: 0;
+      }
+      h1, h3, p {
+        color: aqua;
+      }
+      #identite {
+        width: 30vw;
+      }
+      .ulMediaScreen {
+        text-align: left;
+      }
+
 }

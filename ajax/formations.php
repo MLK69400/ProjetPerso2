@@ -2,42 +2,34 @@
 
     <section class="main">
 
-        <h2>Formation et experiences pro</h2>
-        <div class="cadre">
-            <h3>Formation</h3>
-            <ul>
-                <li>2008 - XXXXXXXXXXXXXXX</li>
-                <li>2007 - XXXXXXXXXXXXXXXXXX</li>
-                <li>2006 - XXXXXXXXXXXXXXX</li>
+        <h2>Formation</h2>
+
+        <div class="cadre row">
+
+          <div class="col-md-6">
+            <img class="mediaScreen" src="images/icone2.jpg " height="500px" width="500px" alt="">
+          </div>
+
+          <div class="col-md-6">
+
+            <ul class="activite">
+                <li class="point"><h3>» MASTER 2 WEBMARKETING<h3></li>
+                <li>2011 – 2012 // Ecole Supérieure de Management en Alternance, MARNE LA VALLEE</li>
             </ul>
-        </div>
-        <div class="cadre">
-            <h3>Experiences</h3>
-            <ul>
-                <li>xxxxxxxxxxxxxxxxxxxxxxxxx</li>
-                <li>xxxxxxxxxxxxxxxxxxxxxxxx</li>
-                <li>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</li>
+
+            <ul class="activite">
+                <li class="point"><h3>» MASTER 2 WEBMARKETING<h3></li>
+                <li>2011 – 2012 // Ecole Supérieure de Management en Alternance, MARNE LA VALLEE</li>
             </ul>
-        </div>
-        <h2>Competences et Atouts</h2>
-        <div class="row marge">
-            <div class="cadre col-sm-5">
-                <ul>
-                    <li>xxxxxxxxxxxxxxxx</li>
-                    <li>xxxxxxxxxxxxxxxx</li>
-                    <li>xxxxxxxxxxxxxxxx</li>
-                    <li>xxxxxxxxxxxxxxxx</li>
-                </ul>  </div>
+
+            <ul class="activite">
+                <li class="point"><h3>» MASTER 2 WEBMARKETING<h3></li>
+                <li>2011 – 2012 // Ecole Supérieure de Management en Alternance, MARNE LA VALLEE</li>
+            </ul>
+
+          </div>
 
 
-            <div class="cadre col-sm-5 col-sm-offset-2">
-                <ul>
-                    <li>xxxxxxxxxxxxxxxx</li>
-                    <li>xxxxxxxxxxxxxxxx</li>
-                    <li>xxxxxxxxxxxxxxxx</li>
-                    <li>xxxxxxxxxxxxxxxx</li>
-                </ul>
-            </div>
         </div>
 
         <h2>Activités</h2>
