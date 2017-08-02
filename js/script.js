@@ -20,8 +20,10 @@ $(document).ready(function(){
 
         // affichée la barre de navigation
         $('#menu').css('display', 'flex').hide().fadeIn(3000);
-        // $('#identite').css('cursor', 'default').hide();
 
+        $('#home').load('ajax/projets.php', function(){
+          $('#home').fadeIn('normal');
+        });
 
     });
 

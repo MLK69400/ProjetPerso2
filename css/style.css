@@ -155,7 +155,7 @@ footer p {
     bottom: -1000px;
   }
   100% {
-    bottom: -150px;
+    bottom: -100px;
   }
 }
 #identite {
@@ -264,11 +264,6 @@ footer p {
   .container2 {
     width: 50px;
   }
-  h1,
-  h3,
-  p {
-    color: red;
-  }
   #identite {
     width: 70vw;
   }
@@ -292,11 +287,6 @@ footer p {
   .container2 {
     width: 370px;
   }
-  h1,
-  h3,
-  p {
-    color: green;
-  }
   #identite {
     width: 50vw;
   }
@@ -319,11 +309,6 @@ footer p {
   }
   .container {
     margin-bottom: 0;
-  }
-  h1,
-  h3,
-  p {
-    color: aqua;
   }
   #identite {
     width: 30vw;
