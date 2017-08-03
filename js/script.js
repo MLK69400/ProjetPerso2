@@ -22,7 +22,8 @@ $(document).ready(function(){
         $('#menu').css('display', 'flex').hide().fadeIn(3000);
 
         $('#home').load('ajax/projets.php', function(){
-          $('#home').fadeIn('normal');
+            // $('#aaa').addClass('animated bounceOutLeft');
+            // document.getElementById('').classList.add('');
         });
 
     });
@@ -60,7 +61,7 @@ $(document).ready(function(){
     });
 
     // Affiche competences qand on clique sur le lien
-    $('.lienCompetences').click(function(){
+    $('.lienCompetences').on('click',function(){
         $('#home').load('ajax/competences.php', function(){
         });
     });

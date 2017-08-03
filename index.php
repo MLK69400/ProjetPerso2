@@ -7,7 +7,7 @@ include 'includes/header.php';
     <div id="main">
         <section id="identite" class="container2">
             <div id="presentation">
-                <span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
+                <span class="avatar"><img src="images/photo-de-profil.jpg" alt="" /></span>
                 <h1>Mohamed KERMICHE</h1>
                 <p>Chef de projet &nbsp;&bull;&nbsp; Cyborg &nbsp;&bull;&nbsp; Domotique</p>
             </div>
