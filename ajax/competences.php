@@ -78,12 +78,9 @@
 
         <h2 class="cadre">Savoir-faire</h2>
 
-        <p>Benchmarking / Veille des technologies et outils web</p>
         <p>Rédaction de Newsletter et Stratégie emailing</p>
-        <p>Copywriting et maîtrise de la rédaction web</p>
         <p>SEO / Référencement de site web</p>
         <p>Création et suivi de tableaux de reporting</p>
-        <p>Trafic Manager (SEA, Display, Comparateurs de prix, Retargeting…)</p>
         <p>Création de tableaux dynamiques avancés Excel et Macros simples</p>
         <p>Connaissances des langages HTML – CSS et bases de PHP.</p>
         <p>Création graphique: bannières, sites web, infographies…</p>

@@ -17,7 +17,7 @@
             <div class="menu ">
                 <h2><span class="icone ion-university"></span>Compétences</h2>
                 <p>Mes compétences en informatique sont essentielles et indispensables. Elles m'offrent les moyens de donner vie à mes idées et mes projets, tout en gardant un pied sur terre et une main sur le clavier !...</p>
-                <button type="submit"><a href="#" class="lienComptences">En savoir +</a></button>
+                <button type="submit"><a href="#" class="lienCompetences">En savoir +</a></button>
 
             </div>
             <div class="menu ">
@@ -43,3 +43,4 @@
         </aside>
     </div>
 </main>
+<script src="js/ajax.js"></script>
