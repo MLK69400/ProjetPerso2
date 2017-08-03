@@ -8,19 +8,28 @@
             <p>Besoin d'un coup de pouce en programmation informatique, envie de me connaître un peu plus ou de m'envoyer un message ? Vous trouverez tout le necéssaire ci-dessous. Vous pouvez télécharger ma carte de visite au format vCard, pour m'ajouter facilement à votre carnet d'adresse, m'envoyer un message électronique, me contacter directement par téléphone ou joindre un de mes partenaires. Je m'engage à vous répondre dans la semaine.</p>
         </section>
 
-        <section class="section2">
-            <div class="boutton">
-                <a href="tel: +33650574448"><p class="texte text">Appelez moi</p> </a>
-            </div>
-            <div class="boutton">
-                <a href="#"><p class="texte text">286, chemin des clos 69640 Saint-Julien</p></a>
-            </div>
-            <div class="boutton">
-                <a href="mailto:contact@mohamedkermiche.fr"><p class="texte text">Envoyez votre mail</p></a>
-            </div>
-            <div class="boutton">
-                <a href="#"><p class="texte text">Partager</p></a>
-            </div>
+        <section class="section2 row">
+
+              <div class="col-md-3 bouton">
+
+                    <a href="tel: +33650574448"><p class="text">Appelez moi</p> </a>
+
+              </div>
+              <div class="col-md-3 bouton">
+
+                    <a href="#"><p class="text">286, chemin des clos 69640 Saint-Julien</p></a>
+
+              </div>
+              <div class="col-md-3 bouton">
+
+                    <a href="mailto:contact@mohamedkermiche.fr"><p class="text">Envoyez votre mail</p></a>
+
+              </div>
+              <div class="col-md-3 bouton">
+
+                    <a href="#"><p class="text">Partager</p></a>
+
+              </div>
         </section>
 
         <aside id="asideContact">
